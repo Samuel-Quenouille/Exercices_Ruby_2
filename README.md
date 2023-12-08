@@ -6,4 +6,4 @@ Pour éxecuter le programme dans le Terminal :
 
 - `cd lib`
 - `ruby 01_cryptocurrencies.rb`
--  `00_journalists.rb`
+- `ruby 00_journalists.rb`
