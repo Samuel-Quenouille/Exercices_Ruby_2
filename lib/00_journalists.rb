@@ -13,7 +13,7 @@ puts "Réponse : Le handle le plus court de la liste est : #{short_string}"
 puts "============="
 
 # Combien y-a-t'il de handle contenant 5 caractères (le @ ne compte pas pour un caractère) ?
-puts "Question 3: Combien y-a-t'il de handle contenant 5 caractères (le @ ne compte pas pour un caractère) ?"
+puts "Question 3 : Combien y-a-t'il de handle contenant 5 caractères (le @ ne compte pas pour un caractère) ?"
     long_string = handle_twitter.select{|str| str.length == 6}.count
 puts "Réponse : Le nombre de handle contenant 5 caractères est de #{long_string}"
 puts "============="

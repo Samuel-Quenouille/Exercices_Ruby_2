@@ -33,7 +33,7 @@ puts "Réponse : Les devises dont le cours est inférieur à 6000 sont : #{crypt
 puts "============="
 
 # La devise la plus chère parmi celles dont le cours est inférieur à 6000.
-puts "La devise la plus chère parmi celles dont le cours est inférieur à 6000."
+puts "Question 4 : La devise la plus chère parmi celles dont le cours est inférieur à 6000."
      crypto_under_6000 = my_hash.select {|crypto_name, value| value < 6000}
      max_value_of_6000 = crypto_under_6000.max_by {|crypto_name, value| value}
 puts "Réponse : La devise la plus chère parmi celles dont le cours est inférieur à 6000 est : #{max_value_of_6000}"
